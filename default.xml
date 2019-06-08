@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- vim: set ft=xml noet ts=4 sw=4 -->
+<manifest>
+	<remote name="github" fetch=".." />
+
+	<default remote="github" revision="master" />
+
+	<project path="sancus-c-build" name="sancus-project/sancus-c-build" />
+</manifest>
