@@ -5,5 +5,7 @@
 
 	<default remote="github" revision="master" />
 
-	<project path="sancus-c-build" name="sancus-project/sancus-c-build" />
+	<project path="sancus-c-build" name="sancus-project/sancus-c-build" sync-s="true">
+		<linkfile src="docker/docker/ubuntu/18.04/run.sh" dest="docker-run.sh" />
+	</project>
 </manifest>
